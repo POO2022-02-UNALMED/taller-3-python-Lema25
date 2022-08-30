@@ -1,5 +1,5 @@
 class Control:
-    def __init__ (self, nombre):
+    def __init__ (self, nomb):
         self.tv = None
 
     def turnOn(self):
@@ -20,15 +20,15 @@ class Control:
     def volumenDown(self):
         self.tv.volumenDown()
 
-    def setCanal(self, canal):
-        self.tv.setCanal(canal)
+    def setCanal(self, can):
+        self.tv.setCanal(can)
     
-    def enlazar(self, tv):
-        self.tv = tv
+    def enlazar(self, t):
+        self.tv = t
         self.tv.setControl(self)
 
-    def setTv(self, tv):
-        self.tv = tv
+    def setTv(self, t):
+        self.tv = t
 
     def getTv(self):
         return self.tv

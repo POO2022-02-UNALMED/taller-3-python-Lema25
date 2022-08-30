@@ -66,8 +66,8 @@ class TV:
         return self.estado
 
     @classmethod
-    def getNumTV(cls):
-        return cls.numTV
+    def getNumTV(self):
+        return self.numTV
     @classmethod
-    def setNumTV(cls, numTV):
-        cls.numTV = numTV
+    def setNumTV(self, numTV):
+        self.numTV = numTV
