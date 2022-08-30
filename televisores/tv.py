@@ -39,7 +39,7 @@ class TV:
         if((canal>=1 and canal<=120) and self._estado==True):
                 self.canal = canal
     def getCanal(self):
-        return self._canal
+        return self.canal
 
     def turnOn(self):
         self.estado = True
